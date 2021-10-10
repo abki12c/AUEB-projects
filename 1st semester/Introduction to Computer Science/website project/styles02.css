@@ -1,0 +1,39 @@
+.gallery {
+    margin: 5px;
+    border: 3px ridge rgb(170, 73, 73);
+    float: left;
+    width: 180px;
+    position:center;
+  }
+  
+  .gallery:hover {
+    border: 5px solid rgb(161, 105, 105);
+    
+   
+  }
+  
+  
+  .gallery img {
+    width: 100%;
+    height: auto;
+  }
+
+  
+  .desc {
+    padding: 30px;
+    text-align: center;
+  }
+  .theEnd{
+      text-align: center;
+      background-image: url(omikron04.jpg);
+  }
+  footer {
+      background-image: url(omikron04.jpg);
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(97, 30, 30);
+    color: white;
+    text-align: center;
+  }
