@@ -8,20 +8,20 @@ public class ReadFileApp {
 
 		BufferedReader reader = null;
 		Device product = null;
-    	String line;
+		String line;
 		System.out.println("\n >>>>>>> Adding Objects (Items) from File to List ...");
-        try {
+		try {
 			reader = new BufferedReader(new FileReader(new File(data)));
-            line = reader.readLine();
-            while (line != null) {
-                if (line.trim().toUpperCase().startsWith("ITEM_LIST")) {
-                    line = reader.readLine();
-                    if (line.trim().equals("{")) {
-                        line = reader.readLine();
-                        if (line.trim().toUpperCase().startsWith("ITEM")) {
+			line = reader.readLine();
+			while (line != null) {
+			if (line.trim().toUpperCase().startsWith("ITEM_LIST")) {
+					line = reader.readLine();
+					if (line.trim().equals("{")) {
+						line = reader.readLine();
+						if (line.trim().toUpperCase().startsWith("ITEM")) {
 							line = reader.readLine();
-			                if (line.trim().equals("{")) {
-			                    line = reader.readLine();
+							if (line.trim().equals("{")) {
+								line = reader.readLine();
 								Device device = new Device();
 								if(line.trim().toUpperCase().startsWith("CODE")){
 									device.setcode(line);
@@ -46,26 +46,26 @@ public class ReadFileApp {
 
 								//Washing Machines
 
-	                            if (line.trim().substring(5).trim().equalsIgnoreCase("TV")) {
-	                                product = new CD();
-	                                line = reader.readLine();
-	                                if (line.trim().startsWith("Title "))
-	                                    product.setTitle(line.substring(6).trim());
-	                                line = reader.readLine();
-	                                if (line.trim().startsWith("Artist"))
-	                                    ((CD) product).setArtist(line.trim().substring(7).trim());
-	                                line = reader.readLine();
-	                                if (line.trim().startsWith("Number of tracks "))
-	                                    ((CD) product).setNumberOfTracks(Integer.parseInt(line.substring(17).trim()));
-	                                line = reader.readLine();
-	                                if (line.trim().startsWith("Playing time "))
-	                                    product.setplayingTime(Integer.parseInt(line.substring(13).trim()));
-	                                line = reader.readLine();
-	                                if (line.trim().startsWith("Price "))
-	                                    product.setPrice(Float.parseFloat(line.substring(6).trim()));
-	                                line = reader.readLine();
-	                                if (line.trim().equals("}"))
-	                                    products.add(product);
+								if (line.trim().substring(5).trim().equalsIgnoreCase("TV")) {
+									product = new CD();
+									line = reader.readLine();
+									if (line.trim().startsWith("Title "))
+										product.setTitle(line.substring(6).trim());
+									line = reader.readLine();
+									if (line.trim().startsWith("Artist"))
+										((CD) product).setArtist(line.trim().substring(7).trim());
+									line = reader.readLine();
+									if (line.trim().startsWith("Number of tracks "))
+										((CD) product).setNumberOfTracks(Integer.parseInt(line.substring(17).trim()));
+									line = reader.readLine();
+									if (line.trim().startsWith("Playing time "))
+										product.setplayingTime(Integer.parseInt(line.substring(13).trim()));
+									line = reader.readLine();
+									if (line.trim().startsWith("Price "))
+										product.setPrice(Float.parseFloat(line.substring(6).trim()));
+									line = reader.readLine();
+									if (line.trim().equals("}"))
+										products.add(product);
 
 								} // TV
 								else if (line.trim().substring(5).trim().equals("DVD")) {
