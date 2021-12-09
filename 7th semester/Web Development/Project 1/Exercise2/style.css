@@ -1,0 +1,122 @@
+body,html{
+    margin: 0;
+    padding: 0;
+    background-color: khaki;
+}
+article{
+    overflow: auto;
+    padding-bottom: 50px;
+}
+main{
+    overflow: auto;
+    padding-bottom: 70px;
+}
+
+
+
+header{
+    width: 100%;
+    height: 70px;
+    background-color: #282828;
+}
+nav h1{
+    position: static;
+    padding: 3px;
+    float:left;
+    margin-left:2%;
+    margin-top: 10px;
+    font-family: 'Alfa Slab One', cursive;
+    color:#39ca74;
+
+}
+
+nav ul{
+    width:auto;
+    float:right;
+    margin-right: 8px;
+}
+li{
+    display: inline-block;
+    padding:15px 30px;
+}
+nav ul a{
+    text-align: center;
+    color: #ffffff;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-size:1.2vw;
+
+}
+a:hover{
+    color: #5f609c;
+    transition: 0.5s;
+}
+footer img{
+    width: 30px;
+}
+.welcome-gif{
+    width: 70px;
+    float: left;
+   
+}
+.book-gif{
+    width: 70px;
+    float: right;
+}
+h6 img{
+    width:20px;
+    position: static;
+}
+h6 img p{
+    float:left;
+}
+footer{
+   
+    position:absolute;
+    bottom:0;
+    width:100%;
+    height:200x;  
+    background:#282828;
+    
+  
+  
+  
+    
+}
+.other-footer{
+    position:relative;
+    bottom:0;
+    width:100%;
+    height:180px;  
+    background:#282828;
+}
+#copyright{
+    text-align: center;
+    color:white;
+    bottom: 0;
+   
+}
+footer a{
+    position: static;
+    float:left;
+}
+footer i{
+    float:right;
+    color:white;
+    margin-right: 10px;
+}
+
+footer p{
+    color:white;
+    margin-left: 10px;
+    
+    
+}
+.studies>img{
+    width: 200px;
+}
+.topics img{
+    width:200px;
+  
+}
+
