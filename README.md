@@ -15,4 +15,4 @@ Note that some projects are done in collaboration with some colleagues and in ev
 
 
 ## License
-Licensed under the [MIT License](https://github.com/abki12c/AUEB-projects)
+Licensed under the [MIT License](https://github.com/abki12c/AUEB-projects/blob/main/LICENSE)
