@@ -12,6 +12,7 @@ Note that some projects are done in collaboration with some colleagues and in ev
   - [Beginer Website](https://github.com/abki12c/AUEB-projects/tree/main/1st%20semester/Introduction%20to%20Computer%20Science/website%20project)
   - [Advanced Website](https://github.com/abki12c/AUEB-projects/tree/main/7th%20semester/Web%20Development)
 - [Quartus Project with VHDL](https://github.com/abki12c/AUEB-projects/tree/main/2nd%20semester/Digital%20Logic%20Design)
+- [Databases Excercises using PostgreSQL](https://github.com/abki12c/AUEB-projects/tree/main/4th%20semester/Databases) <img src="https://github.com/buildkite/emojis/blob/main/img-buildkite-64/postgres.png" width="20" height="20"/>
 
 
 ## License
