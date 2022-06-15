@@ -46,7 +46,7 @@
 
 
 
-#### [ΠΧ1 Αγορά Προιόντος](docs/markdown/uc1-purchase-of product.md)
+#### [ΠΧ1 Αγορά Προιόντος](docs/markdown/uc1-purchase-of-product.md)
 
 #### [ΠΧ2 Παραγγελία](docs/markdown/uc2-order.md)
 
