@@ -56,7 +56,7 @@
 
 #### [ΠΧ5 Ανακύκλωση Συσκευής](docs/markdown/uc5-Device_Recycle.md)
 
-#### [ΠΧ6 Παραλαβή Προιόντος](docs/markdown/uc6-Stock receipt.md)
+#### [ΠΧ6 Παραλαβή Προιόντος](docs/markdown/uc6-Stock-receipt.md)
 
 #### [ΠΧ7 Στατιστικά Στοιχεία](docs/markdown/uc7-Statistics.md)
 
